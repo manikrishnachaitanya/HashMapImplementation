@@ -67,6 +67,6 @@ public class MyMap<K, V> {
 
     public int getHash(K key)
     {
-        return String.valueOf(key).hashCode();
+        return key.hashCode();
     }
 }
