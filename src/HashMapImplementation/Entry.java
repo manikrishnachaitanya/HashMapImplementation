@@ -10,6 +10,5 @@ class Entry<K, V> {
         this.value = value;
         this.next = next;
     }
-
     // getters, equals, hashCode and toString
 }
